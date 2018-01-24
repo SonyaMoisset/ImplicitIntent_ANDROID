@@ -35,6 +35,7 @@
         android:id="@+id/open_location_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:onClick="openLocation"
         android:text="@string/button_loc"/>
 
@@ -48,6 +49,7 @@
         android:id="@+id/share_text_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:onClick="shareText"
         android:text="@string/button_share"/>
 </LinearLayout>
